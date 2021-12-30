@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 import { getCategories } from '../services';
 import logo from '../public/Logo.png';
-import Image from "next/image"
+
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -18,7 +19,6 @@ const Header = () => {
       <div className="border-b w-full inline-block border-blue-400 py-8">
         <div className="md:float-left block">
         <Image src={logo} alt="hello"  height="47%" width="50%" />
-   
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-black  ">Medical News</span>
           </Link>
