@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getCategories } from '../services';
 import logo from '../public/Logo.png';
+
 const Header = () => {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
