@@ -15,7 +15,7 @@ const Header = () => {
     <div className="container mx-auto px-10 mb-8">
       <div className="border-b w-full inline-block border-black-800 py-8">
         <div className="md:float-left block">
-          <Image src={logo} alt="hello" height="30%" width="35%"/>
+          <Image src={logo} alt="hello" height="30%" width="35%" />
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-black ">Medical News</span>
           </Link>
