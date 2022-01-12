@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title className='text-white'>Medical News | Cộng đồng Sức khoẻ và Cuộc sống</title>
+          <title>Medical News | Cộng đồng Sức khoẻ và Cuộc sống</title>
           {/* <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" /> */}
         </Head>
         <body>
