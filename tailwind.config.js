@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'dark-mode': 'rgb(15, 23, 42)',
         'dark-mode-1': 'rgb(31, 41, 55)',
+        'light-mode': 'rgb(255,255,255)',
       },
     },
   },
